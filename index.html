@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio:Bárbara Moreno</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Sobre Mim</a>
+            </li>
+            <li>
+                <a href="training.html">Formação e Cursos</a>
+            </li>
+            <li>
+                <a href="experience.html">Experiências e Competências</a>
+            </li>
+            <li>
+                <a href="contact.html">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="center">
+            <img src="./imag/Babi.png"></img>
+        </div>
+
+        <div class="center">
+            <p>
+                <button class="brown" id="btn-marrom">Marrom</button>
+                <button class="green" id="btn-verde">Verde</button>
+                <button class="purple" id="btn-roxo">Roxo</button>
+                <button class="grey" id="btn-cinza">Cinza</button>
+            </p>
+        </div>
+
+        <script>
+            document.getElementById("btn-marrom").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","brown");
+            })
+
+            document.getElementById("btn-verde").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","green");
+            })
+
+            document.getElementById("btn-roxo").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","purple");
+            })
+
+            document.getElementById("btn-cinza").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","grey");
+            })
+        </script>
+
+        <p>
+        <h1>Bárbara Moreno</h1>
+        </p>
+        <p>
+        <h2>Bióloga e Estudante de ADS</h2>
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <dd>
+            <h3>Sobre Mim</h3>
+            <p>
+                Em busca do meu primeiro emprego, no qual possa desenvolver minhas competências e colaborar para os melhores resultados da empresa, alem de aprender a resolver problemas e ganhar experiência profissional de forma efetiva e criativa em uma posição completamente nova e desafiadora a longo prazo, buscando uma oportunidade como Análista de Sistemas, de forma que possa contribuir com o crescimento da empresa também.
+            </p>
+            </dd>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/Barbara-Moreno" target="_blank" rel="noopener noreferrer">
+            <img src="./imag/github.svg"></img>
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/b%C3%A1rbara-moreno-7b14071a0/" target="_blank" rel="noopener noreferrer">
+            <img src="./imag/linkedin.svg"></img>
+            <p>Linkedin</p>
+        </a>
+    </footer>
+    </div>
+</body>
+</html>

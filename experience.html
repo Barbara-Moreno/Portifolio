@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiência e Competências</title>
+    <link rel="stylesheet" href="experience.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="training.html">Formação e Cursos</a>
+                </li>
+                <li>
+                    <a href="experience.html">Experiências e Competências</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+
+    <div class="container">
+    <h1>Experiência e Competências</h1>
+
+    <header>
+        <div class="center">
+            <img src="./imag/competencia.png"></img>
+        </div>
+    </header>
+
+    <div class="center">
+        <p>
+            <button class="brown" id="btn-marrom">Marrom</button>
+            <button class="green" id="btn-verde">Verde</button>
+            <button class="purple" id="btn-roxo">Roxo</button>
+            <button class="grey" id="btn-cinza">Cinza</button>
+        </p>
+    </div>
+
+    <script>
+        document.getElementById("btn-marrom").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","brown");
+        })
+
+        document.getElementById("btn-verde").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","green");
+        })
+
+        document.getElementById("btn-roxo").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","purple");
+        })
+
+        document.getElementById("btn-cinza").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","grey");
+        })
+    </script>
+</header>
+
+    <main>
+    <section>
+        <dd>
+    <br>
+        <p>
+            UFPE - Laboratório de Zoologia Marinha | 08/2018 - 06/2019
+        </p>
+        <p>
+            Agência UNION – Degustadora/ Vendas (Gomes Gourmet) Recife, PE | em 2023
+        </p>
+        <p>
+            Capacidade de organização e divisão de tarefas; Dinamismo e disposição para o aprendizado de novas tarefas; Boas habilidades interpessoais e fácil comunicação; Proatividade e agilidade nas operações diárias.
+        </p>
+    </br>
+        </dd>
+    </section>
+    </main>
+    </div>
+</body>
+</html>

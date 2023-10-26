@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação e Cursos</title>
+    <link rel="stylesheet" href="training.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="training.html">Formação e Cursos</a>
+                </li>
+                <li>
+                    <a href="experience.html">Experiências e Competências</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    <div class="container">
+    <h1>Formação e Cursos</h1>
+
+    <header>
+        <div class="center">
+            <img src="./imag/faculdade.png"></img>
+        </div>
+
+        <div class="center">
+            <p>
+                <button class="brown" id="btn-marrom">Marrom</button>
+                <button class="green" id="btn-verde">Verde</button>
+                <button class="purple" id="btn-roxo">Roxo</button>
+                <button class="grey" id="btn-cinza">Cinza</button>
+            </p>
+        </div>
+
+        <script>
+            document.getElementById("btn-marrom").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","brown");
+            })
+
+            document.getElementById("btn-verde").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","green");
+            })
+
+            document.getElementById("btn-roxo").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","purple");
+            })
+
+            document.getElementById("btn-cinza").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","grey");
+            })
+        </script>
+    </header>
+
+    <main>
+    <section>
+
+        <dd>
+    <br>
+        <p>
+            Bacharelado : Análise de Desenvolvimento de Sistemas (ADS) - Faculdade SENAC de Pernambuco, Recife, PE | 2º Período/Noite.
+        </p>
+        <p>
+            Bacharelado : Ciências Biológicas com ênfase em Ciências Ambientais - Universidade Federal de Pernambuco (UFPE), Recife, PE | Concluído.
+        </p>
+        <p>
+            Curso de Formação Acelerada em Programação da Softex PE - “Desenvolvedor Back End” / Cursando.
+        </p>
+        <p>
+            Inglês Básico – Wizard (1 ano).  
+        </p>
+        <p>
+            Curso de informática básica – Tera Byte.
+        </p>
+    </br>
+        </dd>
+
+    </section>
+    </main>
+    </div>
+</body>
+</html>

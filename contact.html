@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="training.html">Formação e Cursos</a>
+                </li>
+                <li>
+                    <a href="experience.html">Experiências e Competências</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contatos</a>
+                </li>
+            </ul>
+        </nav> 
+
+    <div class="container">
+    <h1>Contatos</h1>
+
+    <div class="center">
+        <p>
+            <button class="brown" id="btn-marrom">Marrom</button>
+            <button class="green" id="btn-verde">Verde</button>
+            <button class="purple" id="btn-roxo">Roxo</button>
+            <button class="grey" id="btn-cinza">Cinza</button>
+        </p>
+    </div>
+
+    <script>
+        document.getElementById("btn-marrom").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","brown");
+        })
+
+        document.getElementById("btn-verde").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","green");
+        })
+
+        document.getElementById("btn-roxo").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","purple");
+        })
+
+        document.getElementById("btn-cinza").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","grey");
+        })
+    </script>
+    
+    <footer>
+        <a>
+            <img src="./imag/whats - qr.png"></img>
+            <p>Whatsapp</p>
+        </a>
+        <a href="https://instagram.com/abarbaramoreno?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <img src="./imag/instagram.png"></img>
+            <p>Instagram</p>
+        </a>
+        <a href="https://www.linkedin.com/in/b%C3%A1rbara-moreno-7b14071a0/" target="_blank" rel="noopener noreferrer">
+            <img src="./imag/linkedin.svg"></img>
+            <p>Linkedin</p>
+        </a>
+        <a>
+            <img src="./imag/outlook.png"></img>
+            <p>barbaramoreno__@hotmail.com</p>
+        </a>
+        <a href="https://www.google.com/maps/@-8.0262892,-34.9023743,3a,75y,17.1h,90t/data=!3m7!1e1!3m5!1sFqxoisgMGtXIqSPkGiJdCw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DFqxoisgMGtXIqSPkGiJdCw%26cb_client%3Dsearch.gws-prod.gps%26w%3D86%26h%3D86%26yaw%3D17.103266%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu" target="_blank" rel="noopener noreferrer">
+            <img src="./imag/mapa.png"></img>
+            <p>Localização</p>
+        </a>
+
+    </footer>
+    </div>
+</body>
+</html>
